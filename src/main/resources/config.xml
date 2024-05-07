@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+  https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    first object-->
+<bean class="com.springcore.Student" name="Student1">
+
+<!--first why to add values-->
+    <property name="StudentId">
+        <value>76686</value>
+    </property>
+
+<!--    second why to write values-->
+    <property name="StudentName" value="Sameer"/>
+
+    <property name="StudentAddress" value="Karachi"/>
+</bean>
+<!-- second object -->
+    <bean class="com.springcore.Student" name="Student2">
+
+        <!--first why to add values-->
+        <property name="StudentId">
+            <value>586599</value>
+        </property>
+
+        <!--    second why to write values-->
+        <property name="StudentName" value="Farhan"/>
+
+        <property name="StudentAddress" value="Lahore"/>
+    </bean>
+
+
+
+</beans>
