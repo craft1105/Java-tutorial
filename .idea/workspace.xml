@@ -5,22 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1394113-7ae1-40cd-9230-b97878584056" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springcore/auto/wire/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springcore/auto/wire/Emp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springcore/auto/wire/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springcore/auto/wire/annotation/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springcore/auto/wire/annotation/Emp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springcore/auto/wire/annotation/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springcore/lifecyle/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springcore/lifecyle/Pepsi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springcore/lifecyle/samosa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springcore/lifecyle/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Anotationautoconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/autoconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/samconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Collection/Arraylist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springcore/auto/wire/Qualifier/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springcore/auto/wire/Qualifier/Emp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springcore/auto/wire/Qualifier/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Qualifierautoconfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springcore/auto/wire/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springcore/auto/wire/xml/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springcore/auto/wire/Emp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springcore/auto/wire/xml/Emp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springcore/auto/wire/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springcore/auto/wire/xml/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/autoconfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/autoconfig.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -51,8 +46,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Arraylist.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Test.executor": "Run",
+    "Application.com.springcore.auto.wire.Qualifier.Test.executor": "Run",
     "Application.com.springcore.auto.wire.Test.executor": "Run",
     "Application.com.springcore.auto.wire.annotation.Test.executor": "Run",
     "Application.com.springcore.lifecyle.test.executor": "Run",
@@ -63,7 +60,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ali/Desktop/javak2/Springboot/src/main/resources",
+    "last_opened_file_path": "C:/Users/ali/Desktop/javak2/Springboot/src/main/java/com/springcore/auto/wire/xml",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -79,23 +76,24 @@
       <recent name="com.springcore.auto.wire" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ali\Desktop\javak2\Springboot\src\main\java\com\springcore\auto\wire\xml" />
       <recent name="C:\Users\ali\Desktop\javak2\Springboot\src\main\resources" />
+      <recent name="C:\Users\ali\Desktop\javak2\Springboot\src\main\java\com\springcore\auto\wire\Qualifier" />
       <recent name="C:\Users\ali\Desktop\javak2\Springboot\src\main\java\com\springcore\auto\wire\annotation" />
       <recent name="C:\Users\ali\Desktop\javak2\Springboot\src\main\java\com\springcore\constuctorinjection" />
-      <recent name="C:\Users\ali\Desktop\javak2\Springboot\src\main\java\com\springcore\ref" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ali\Desktop\javak2\Springboot\src\main\resources" />
       <recent name="C:\Users\ali\Desktop\javak2\Springboot\src\main\java\com\springcore\ref" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.springcore.auto.wire.annotation.Test">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.springcore.ref.Test" />
+  <component name="RunManager" selected="Application.Arraylist">
+    <configuration name="Arraylist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Collection.Arraylist" />
       <module name="Springboot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.springcore.ref.*" />
+          <option name="PATTERN" value="com.Collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +101,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.springcore.auto.wire.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.springcore.auto.wire.Test" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springcore.Main" />
       <module name="Springboot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.springcore.auto.wire.*" />
+          <option name="PATTERN" value="com.springcore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springcore.auto.wire.xml.Test" />
+      <module name="Springboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springcore.auto.wire.xml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.springcore.auto.wire.Qualifier.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springcore.auto.wire.Qualifier.Test" />
+      <module name="Springboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springcore.auto.wire.Qualifier.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,39 +153,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.springcore.lifecyle.test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.springcore.lifecyle.test" />
-      <module name="Springboot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.springcore.lifecyle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.springcore.constuctorinjection.test" />
-      <module name="Springboot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.springcore.constuctorinjection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.springcore.auto.wire.annotation.Test" />
-        <item itemvalue="Application.com.springcore.auto.wire.Test" />
-        <item itemvalue="Application.com.springcore.lifecyle.test" />
-        <item itemvalue="Application.test" />
+        <item itemvalue="Application.Arraylist" />
         <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.com.springcore.auto.wire.Qualifier.Test" />
+        <item itemvalue="Application.com.springcore.auto.wire.annotation.Test" />
       </list>
     </recent_temporary>
   </component>

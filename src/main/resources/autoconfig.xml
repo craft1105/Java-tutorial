@@ -6,11 +6,11 @@
 
 
 
-    <bean class="com.springcore.auto.wire.Address" name="address2">
+    <bean class="com.springcore.auto.wire.xml.Address" name="address2">
         <property name="street" value="Korangi"/>
         <property name="city" value="Karachi"/>
     </bean>
-<bean class="com.springcore.auto.wire.Emp" name="emp" autowire="byType"/>
+<bean class="com.springcore.auto.wire.xml.Emp" name="emp" autowire="byType"/>
 
 
 
