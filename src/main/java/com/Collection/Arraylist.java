@@ -8,6 +8,6 @@ public class Arraylist {
         list.add("dfdfjhjf");
         list.add(1,"52");
         System.out.println(list.get(1));
-        ArrayList<String> list = new ArrayList<>();
+        ArrayList<String> ArrayList = new ArrayList<>();
     }
 }

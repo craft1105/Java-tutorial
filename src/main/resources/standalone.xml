@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/util
+        http://www.springframework.org/schema/util/spring-util-3.0.xsd">
+
+<!--    standalone list using Linkedlist-->
+
+
+    <util:list list-class="java.util.LinkedList" id="mybestfrient">
+    <value>Aman</value>
+    <value>farhan</value>
+    <value>asad</value>
+    <value>khuram</value>
+    </util:list>
+    <!--    standalone list using MAp-->
+    <util:map map-class="java.util.HashMap" id="fees">
+        <entry key="Spring framwork" value="2000"/>
+        <entry key="Django framwork" value="3000"/>
+        <entry key="hibernate framwork" value="4000"/>
+        <entry key="springboot framwork" value="8000"/>
+    </util:map>
+
+<bean class="com.springcore.standalone.collections.Person" name="person1">
+    <property name="friends" ref="mybestfrient"/>
+</bean>
+    <bean class="com.springcore.standalone.collections.Person" name="person2">
+        <property name="friends" ref="mybestfrient"/>
+    </bean>
+
+    <!--    standalone list using MAp-->
+<bean class="com.springcore.standalone.collections.Person" name="structure">
+<property ref="fees" name="feesturcture"/>
+</bean>
+
+
+</beans>
